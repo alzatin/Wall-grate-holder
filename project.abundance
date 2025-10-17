@@ -1,15 +1,237 @@
 {
-    "atomType": "Molecule",
-    "name": "Wall-grate-holder",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "5c8df464-8cb5-4926-8ec9-5bbcd5141b03",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Wall-grate-holder",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "5c8df464-8cb5-4926-8ec9-5bbcd5141b03",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "a7f7874c-72dd-475c-b0b1-ed5d253e53a9",
+      "ioValues": []
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.18827586206896552,
+      "y": 0.7672413793103448,
+      "uniqueID": "4da87b3d-6f7b-4458-a723-1e537869ff51",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 140,
+          "currentEquation": "140"
+        },
+        {
+          "name": "y length",
+          "ioValue": 20,
+          "currentEquation": "20"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.3579310344827586,
+      "y": 0.7816091954022989,
+      "uniqueID": "d60873ca-711e-46f9-b2e8-1d1389bed021",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.17862068965517242,
+      "y": 0.5632183908045977,
+      "uniqueID": "b798f408-e4e0-470a-9362-b1eb483dcd7d",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 140,
+          "currentEquation": "140"
+        },
+        {
+          "name": "y length",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.3448275862068966,
+      "y": 0.42528735632183906,
+      "uniqueID": "c161ec93-4b25-47ea-a44d-a8371d891b79",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.46413793103448275,
+      "y": 0.7902298850574713,
+      "uniqueID": "6bb845fc-5ef9-4b9e-9261-22ce42f2a136",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5331034482758621,
+      "y": 0.9511494252873564,
+      "uniqueID": "2ccda7e2-982e-47f1-a44b-f22c243489d6",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5,
+          "currentEquation": "5"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 15,
+          "currentEquation": "15"
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "name": "Fusion",
+      "x": 0.6179310344827587,
+      "y": 0.42816091954022983,
+      "uniqueID": "de80d4b4-bb10-4295-b64b-9fb8f9eef5ef",
+      "ioValues": [
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "extrude-bf3eaac1a700d2d9bf413426534356dd1ea45f867dd3443a668e93ca0bfa7146",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "move-b80e31f7a060eb1afb0b01158aafbd2f2618fab11e13c3095e798f4dc6576c19",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "4da87b3d-6f7b-4458-a723-1e537869ff51",
+      "ap2ID": "d60873ca-711e-46f9-b2e8-1d1389bed021"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "d60873ca-711e-46f9-b2e8-1d1389bed021",
+      "ap2ID": "6bb845fc-5ef9-4b9e-9261-22ce42f2a136"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "b798f408-e4e0-470a-9362-b1eb483dcd7d",
+      "ap2ID": "c161ec93-4b25-47ea-a44d-a8371d891b79"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 3",
+      "ap1ID": "c161ec93-4b25-47ea-a44d-a8371d891b79",
+      "ap2ID": "de80d4b4-bb10-4295-b64b-9fb8f9eef5ef"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "6bb845fc-5ef9-4b9e-9261-22ce42f2a136",
+      "ap2ID": "2ccda7e2-982e-47f1-a44b-f22c243489d6"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 4",
+      "ap1ID": "2ccda7e2-982e-47f1-a44b-f22c243489d6",
+      "ap2ID": "de80d4b4-bb10-4295-b64b-9fb8f9eef5ef"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
