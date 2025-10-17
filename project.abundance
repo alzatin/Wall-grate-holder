@@ -389,8 +389,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.23225152129817445,
-      "y": 0.6490683229813664,
+      "x": 0.25557809330628806,
+      "y": 0.6459627329192547,
       "uniqueID": "6a5fd449-f679-4f9d-8225-0a115ef56468",
       "ioValues": [
         {
@@ -403,40 +403,20 @@
         },
         {
           "name": "zDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.34989858012170383,
-      "y": 0.5807453416149069,
-      "uniqueID": "8b12173c-1a73-4f9a-a68f-15aa208d8fd1",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.30425963488843816,
-      "y": 0.8913043478260869,
+      "x": 0.3945233265720081,
+      "y": 0.5559006211180124,
       "uniqueID": "66f9963f-745e-4066-b994-fd01ff16b7ef",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -50,
-          "currentEquation": "-50"
+          "ioValue": -50
         },
         {
           "name": "yDist",
@@ -482,8 +462,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -12,
-          "currentEquation": "-12"
+          "ioValue": -12
         },
         {
           "name": "zDist",
@@ -515,6 +494,53 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Wall-grate-holder"
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.4503042596348884,
+      "y": 0.8819875776397516,
+      "uniqueID": "68059542-b7d5-4155-9f83-59e978458589",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 25
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "name": "Fusion",
+      "x": 0.486815415821501,
+      "y": 0.6677018633540373,
+      "uniqueID": "862a43ba-5751-4b75-93b8-71573c1184ba",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ],
+      "unionType": "Fusion"
     },
     {
       "atomType": "Molecule",
@@ -559,8 +585,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             }
           ]
         },
@@ -577,8 +602,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             }
           ]
         },
@@ -591,8 +615,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 8,
-              "currentEquation": "8"
+              "ioValue": 8
             }
           ]
         },
@@ -795,8 +818,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -5,
-              "currentEquation": "-5"
+              "ioValue": -5
             },
             {
               "name": "zDist",
@@ -1074,7 +1096,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "singular-1ae3592f8248c3f879b56afe3f2ce6aad45ba898434796d35c565684397fb3e6",
+                "geometry": "singular-d0bca111f8628137adc4c16f123496dcdd1d590d06cb5d9acd68b39fe656fb97",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1898,14 +1920,14 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.4624746450304259,
-      "y": 0.9037267080745341,
-      "uniqueID": "68059542-b7d5-4155-9f83-59e978458589",
+      "x": 0.3316430020283976,
+      "y": 0.8012422360248447,
+      "uniqueID": "520806fe-332c-4092-be89-a87d6310ca70",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "yDist",
@@ -1913,133 +1935,10 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
-    },
-    {
-      "atomType": "Fusion",
-      "name": "Fusion",
-      "x": 0.486815415821501,
-      "y": 0.6677018633540373,
-      "uniqueID": "862a43ba-5751-4b75-93b8-71573c1184ba",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-e47221f2e8a1cf1b75322855b101b74b1fda7751d3b32b8f4655d9f737134fe6",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        -4
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#DBADA9",
-                    "bom": [
-                      {
-                        "BOMitemName": "#6 Wood Screw",
-                        "numberNeeded": 1,
-                        "costUSD": 0.1,
-                        "source": "www.example.com"
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-006509009f3a4749c2d5efcf4a247a739466eb49a1ed9b3ced71ae7f19c27bfa",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#DBADA9",
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        }
-      ],
-      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -2107,19 +2006,7 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "6a5fd449-f679-4f9d-8225-0a115ef56468",
-      "ap2ID": "8b12173c-1a73-4f9a-a68f-15aa208d8fd1"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "6a5fd449-f679-4f9d-8225-0a115ef56468",
       "ap2ID": "66f9963f-745e-4066-b994-fd01ff16b7ef"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "zDist",
-      "ap1ID": "6a5fd449-f679-4f9d-8225-0a115ef56468",
-      "ap2ID": "8b12173c-1a73-4f9a-a68f-15aa208d8fd1"
     },
     {
       "ap1Name": "geometry",
@@ -2135,6 +2022,12 @@
     },
     {
       "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "6a5fd449-f679-4f9d-8225-0a115ef56468",
+      "ap2ID": "520806fe-332c-4092-be89-a87d6310ca70"
+    },
+    {
+      "ap1Name": "geometry",
       "ap2Name": "Shape 3",
       "ap1ID": "66f9963f-745e-4066-b994-fd01ff16b7ef",
       "ap2ID": "862a43ba-5751-4b75-93b8-71573c1184ba"
@@ -2144,6 +2037,24 @@
       "ap2Name": "Shape 6",
       "ap1ID": "3aa2b43c-3d2e-45a6-88f0-d964c69042d7",
       "ap2ID": "f7794150-4c0d-4869-87e3-4ff4cdbffdb7"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "68059542-b7d5-4155-9f83-59e978458589",
+      "ap2ID": "862a43ba-5751-4b75-93b8-71573c1184ba"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "862a43ba-5751-4b75-93b8-71573c1184ba",
+      "ap2ID": "086ec7e5-6c1e-4834-bee2-5063915e4814"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "862a43ba-5751-4b75-93b8-71573c1184ba",
+      "ap2ID": "3aa2b43c-3d2e-45a6-88f0-d964c69042d7"
     },
     {
       "ap1Name": "geometry or number",
@@ -2171,32 +2082,13 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "Shape 1",
-      "ap1ID": "68059542-b7d5-4155-9f83-59e978458589",
+      "ap2Name": "Shape 4",
+      "ap1ID": "520806fe-332c-4092-be89-a87d6310ca70",
       "ap2ID": "862a43ba-5751-4b75-93b8-71573c1184ba"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "862a43ba-5751-4b75-93b8-71573c1184ba",
-      "ap2ID": "086ec7e5-6c1e-4834-bee2-5063915e4814"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "862a43ba-5751-4b75-93b8-71573c1184ba",
-      "ap2ID": "3aa2b43c-3d2e-45a6-88f0-d964c69042d7"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": [
-    {
-      "BOMitemName": "#6 Wood Screw",
-      "numberNeeded": 1,
-      "costUSD": 0.1,
-      "source": "www.example.com"
-    }
-  ],
+  "compiledBom": [],
   "filetypeVersion": 1
 }
