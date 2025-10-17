@@ -2,5 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|#6 Wood Screw|6|$0.60|www.example.com|
-|Total: |6|$0.60| |
+|#6 Wood Screw|3|$0.30|www.example.com|
+|Total: |3|$0.30| |
